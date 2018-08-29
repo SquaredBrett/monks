@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Monk's Cafe</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div id="wrapper">
+	<!-- Begin header -->
+
+	<div id="header">
+   		<h1>Monk's Cafe</h1>
+   		<h4>"The Coffee Shop"</h4>
+	</div>
+
+	<!-- End header -->
+
+	<!-- Begin hero image -->
+
+	<div id="hero">
+		<!-- hero image -->
+	</div>
+
+	<!-- End hero image -->
+
+
+	<!-- Begin Reservations section -->
+
+	<div id="reservations">
+
+		<h2 class="title">Reservations</h2>
+
+		<div id="reservationFormContainer">
+			<!-- reservation form -->
+			<form id="resrvationForm">
+				<h3>Make a reservation</h3>
+				<div class="formField">
+					<label>Name:</label>
+					<input type="text" name="name" placeholder=""  />
+				</div>
+				<div class="formField">
+					<label>Day:</label>
+					<input type="text" name="day" placeholder=""  />
+				</div>
+				<div class="formButton">
+					<button type="submit">Confirm Reservation</button>
+				</div>
+			</form>
+		</div>
+		<div id="existingReservationsContainer">
+			<h3>Existing Reservations</h3>
+			<!-- existing reservation table -->
+			<table width="100%" cellpadding="0" cellspacing="0" id="existingReservations">
+				<tr>
+					<th>Name</th>
+					<th>Day</th>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<!-- append new tr and td -->
+			</table>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<!-- End Reservations section -->
+
+	<!-- Begin Map -->
+	<div id="mapContainer">
+
+		<h2 class="title">Come Dine with Us</h2>
+
+		<div id="map">
+		</div>
+
+	</div>
+	<!-- End Map -->
+
+	<!-- Begin Reviews -->
+
+	<div id="reviews">
+		<h2 class="title">Customer Reviews</h2>
+		<!-- cuustomer reviews -->
+		<div id="reviewImage">
+			
+		</div>
+		<div id="reviewQuote">
+			<p>
+				<em>“Big lettuce, big carrots, tomatoes like volleyballs.”</em>
+			</p>
+			<p>— Jerry Seinfeld, on The BIG Salad</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<!-- End Reviews -->
+
+</div>
+   <script src="js/jquery-3.3.1.js"></script>
+   <script src="js/main.js"></script>
+   <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCi9dzZHdswNshnySA2_lauEUK3DAqKC3A&callback=initMap"></script>
+</body>
+</html>
